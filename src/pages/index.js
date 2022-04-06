@@ -8,15 +8,15 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Make a difference today</h1>
+    <p>Find the right charity for you using our matching service and search engine.</p>
+    <button>Get Matched</button>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/charity.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="Children"
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
